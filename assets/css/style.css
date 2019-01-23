@@ -1,0 +1,134 @@
+.test-1{
+	font-family: Poppins;
+	font-weight: 400;
+}
+
+.test-2{
+	font-family: Poppins;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+.custom-title{
+	font-family: Poppins;
+}
+
+.custom-title2{
+	font-family: Poppins;
+	line-height: 1.5;
+	color: #f52e2e;
+}
+
+.custom-title3{
+	font-family: Poppins;
+	width: 500px;
+	line-height: 1.5;
+	color: #f52e2e;
+}
+
+.custom-title4{
+	font-family: Poppins;
+	line-height: 1.5;
+	color: #ffffff;
+}
+
+.text1{
+	font-family: Poppins;
+	font-weight: 400;
+	line-height: 2;
+	
+}
+
+.text2{
+	font-family: Poppins;
+	font-weight: 400;
+	line-height: 2;
+	color: #ffffff;
+}
+
+.contact-button{
+	background-color: #f52e2e;
+	border: none;
+}
+
+.bg-picture{
+	background-image: url(../img/106.jpeg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bg-picture1{
+	background-image: url(../img/picontak.png);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.size-img{
+	width: 90%;
+	height: auto;
+}
+
+.columns.reverse{
+	flex-direction: row-reverse;
+}
+
+.size-img.margin{
+	margin-left: 8%;
+}
+
+.vertical-centered{
+	display: inline-block;
+	align-items: center;
+}
+
+.column-margins{
+	margin-left: 8%
+}
+
+.col-bg{
+	background-color: #ffffff;
+	padding-top: 5%;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+
+.col-bg:hover{ 
+     box-shadow: 3px 5px 20px rgba(0,0,0,0.16);
+    -webkit-transition:  box-shadow .2s ease-in;
+}
+
+.footer-color{
+	background-color: #f52e2e;
+}
+
+.form-label-font{
+	font-family: Poppins;
+	font-weight: 500;
+}
+
+.form-font{
+	font-family: Poppins;
+}
+
+.section-color{
+	background-color: #f52e2e;
+}
+
+.bg-merah{
+	background-color: rgba(245,46,46,0.7); 
+	width: 60%;
+}
+
+.bg-merah2{
+	background-color: rgba(245,46,46,0.7); 
+	width: 100%;
+}
+
+@media screen  and (max-width: 950px){
+	.bg-merah{
+		width: 100%;
+	}
+}
